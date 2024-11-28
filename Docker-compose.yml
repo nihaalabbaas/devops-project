@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    image: nihalabbas/login-app:latest
+    build: .
+    ports:
+      - "8080:80"
+
